@@ -1,4 +1,4 @@
-add_library(labs ../../KirillovaVika-homework-3-main/labs_src/lab3/BackupJob.cpp ../../KirillovaVika-homework-3-main/labs_src/lab3/BackupJob.h ../../KirillovaVika-homework-3-main/labs_src/lab3/JobObject.cpp ../../KirillovaVika-homework-3-main/labs_src/lab3/JobObject.h ../../KirillovaVika-homework-3-main/labs_src/lab3/Repository.cpp ../../KirillovaVika-homework-3-main/labs_src/lab3/Repository.h ../../KirillovaVika-homework-3-main/labs_src/lab3/RestorePoint.cpp ../../KirillovaVika-homework-3-main/labs_src/lab3/RestorePoint.h ../../KirillovaVika-homework-3-main/labs_src/lab3/Storage.cpp ../../KirillovaVika-homework-3-main/labs_src/lab3/Storage.h)
+add_library(labs ../../labs_src/lab3/BackupJob.cpp ../../labs_src/lab3/BackupJob.h ../../labs_src/lab3/JobObject.cpp ../../labs_src/lab3/JobObject.h ../../labs_src/lab3/Repository.cpp ../../labs_src/lab3/Repository.h ../../labs_src/lab3/RestorePoint.cpp ../../labs_src/lab3/RestorePoint.h ../../labs_src/lab3/Storage.cpp ../../labs_src/lab3/Storage.h)
 
 #add_subdirectory(../../KirillovaVika-homework-3-main/labs_src/libzippp-master)
 include_directories(${libzippp-master_SOURCE_DIR}/src ${libzippp-master_SOURCE_DIR})
