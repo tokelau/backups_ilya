@@ -1,0 +1,14 @@
+# Target labels
+ gtest-populate
+# Source files and their labels
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/CMakeFiles/gtest-populate
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/CMakeFiles/gtest-populate.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/CMakeFiles/gtest-populate-complete.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/gtest-populate-build.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/gtest-populate-configure.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/gtest-populate-download.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/gtest-populate-install.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/gtest-populate-mkdir.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/gtest-populate-patch.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/gtest-populate-test.rule
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/gtest-populate-prefix/src/gtest-populate-stamp/gtest-populate-update.rule

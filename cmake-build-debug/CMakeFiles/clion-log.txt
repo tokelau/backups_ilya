@@ -1,0 +1,79 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main -B /Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug
+CMake Warning at labs_src/libzippp-master/libzip-1.8.0/CMakeLists.txt:42 (find_package):
+  By not providing "FindNettle.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Nettle", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Nettle" (requested
+  version 3.0) with any of the following names:
+
+    NettleConfig.cmake
+    nettle-config.cmake
+
+  Add the installation prefix of "Nettle" to CMAKE_PREFIX_PATH or set
+  "Nettle_DIR" to a directory containing one of the above files.  If "Nettle"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Could NOT find GnuTLS (missing: GNUTLS_LIBRARY GNUTLS_INCLUDE_DIR) 
+CMake Warning at labs_src/libzippp-master/libzip-1.8.0/CMakeLists.txt:46 (find_package):
+  By not providing "FindMbedTLS.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "MbedTLS", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "MbedTLS"
+  (requested version 1.0) with any of the following names:
+
+    MbedTLSConfig.cmake
+    mbedtls-config.cmake
+
+  Add the installation prefix of "MbedTLS" to CMAKE_PREFIX_PATH or set
+  "MbedTLS_DIR" to a directory containing one of the above files.  If
+  "MbedTLS" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR) 
+-- Could NOT find LibLZMA (missing: LIBLZMA_INCLUDE_DIR) (Required is at least version "5.2")
+CMake Warning at labs_src/libzippp-master/libzip-1.8.0/CMakeLists.txt:194 (message):
+  -- lzma library not found; lzma/xz support disabled
+
+
+CMake Deprecation Warning at cmake-build-debug/_deps/gtest-src/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at cmake-build-debug/_deps/gtest-src/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done
+CMake Error at labs_src/libzippp-master/libzip-1.8.0/lib/CMakeLists.txt:5 (add_library):
+  Target "zip" links to target "Zstd::Zstd" but the target was not found.
+  Perhaps a find_package() call is missing for an IMPORTED target, or an
+  ALIAS target is missing?
+
+
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   gtest
+   gtest_main
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

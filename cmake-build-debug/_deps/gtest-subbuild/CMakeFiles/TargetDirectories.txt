@@ -1,0 +1,3 @@
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/CMakeFiles/gtest-populate.dir
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/CMakeFiles/edit_cache.dir
+/Users/anastasialobkina/Desktop/KirillovaVika-homework-3-main/cmake-build-debug/_deps/gtest-subbuild/CMakeFiles/rebuild_cache.dir
