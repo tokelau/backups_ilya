@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-project(ict-homework-3 LANGUAGES CXX)
+project(ict-homework-3 LANGUAGES CXX C)
 
 # set the C++ standard
 set(CMAKE_CXX_STANDARD 17)
