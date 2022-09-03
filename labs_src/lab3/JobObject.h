@@ -2,13 +2,16 @@
 #define ICT_HOMEWORK_3_JOBOBJECT_H
 
 #include <string>
+#include <fstream>
 
 // файлы для бекапа
 class JobObject {
 public:
-    JobObject(std::string name) : _name(name) {}
+    JobObject(const std::string& name) {
+        _name = name;
+    }
 
-    std::string get_name() const {
+    std::string string() {
         return _name;
     }
 

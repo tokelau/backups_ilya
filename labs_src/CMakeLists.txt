@@ -1,14 +1,25 @@
-add_library(labs ../../labs_src/lab3/BackupJob.cpp ../../labs_src/lab3/BackupJob.h ../../labs_src/lab3/JobObject.cpp ../../labs_src/lab3/JobObject.h ../../labs_src/lab3/Repository.cpp ../../labs_src/lab3/Repository.h ../../labs_src/lab3/RestorePoint.cpp ../../labs_src/lab3/RestorePoint.h ../../labs_src/lab3/Storage.cpp ../../labs_src/lab3/Storage.h)
-
-#add_subdirectory(../../KirillovaVika-homework-3-main/labs_src/libzippp-master)
-include_directories(${libzippp-master_SOURCE_DIR}/src ${libzippp-master_SOURCE_DIR})
+add_library(labs)
 
 target_sources(labs
   PRIVATE
         lab3/consolelog.cpp
+        lab3/BackupJob.cpp
+        lab3/JobObject.cpp
+        lab3/Storage.cpp
+        lab3/Repository.cpp
+        lab3/RestorePoint.cpp
+        zip-master/src/zip.c
   PUBLIC
         lab3/lab3_functions.h
+        lab3/BackupJob.h
+        lab3/JobObject.h
+        lab3/Storage.h
+        lab3/Repository.h
+        lab3/RestorePoint.h
+
   )
+
+add_subdirectory(zip-master)
 
 target_include_directories(labs
   PUBLIC
