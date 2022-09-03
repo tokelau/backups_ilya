@@ -3,6 +3,7 @@
 
 #include <fstream>
 #include <string>
+#include <filesystem>
 #include "RestorePoint.h"
 #include "zip-master/src/zip.h"
 
